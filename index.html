@@ -15,10 +15,8 @@
 <body>
 
     <div id="app">
-
         <div class="container">
             <div class="slider-wrapper" tabindex="0">
-
                 <div class="item img-container">
                     <img :src="slides[SlideAttiva].image" :alt="slides[SlideAttiva].title" />
                     <div class="text">
@@ -28,7 +26,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="thumbs">
                     <div class="prev" @click="prevSlide()"></div>
                     <div class="next" @click="nextSlide()"></div>
@@ -48,10 +45,8 @@
                         <img src="img/05.webp" alt="Avengers" />
                     </div>
                 </div>
-
             </div>
         </div>
-
     </div>
 
     <script src='https://unpkg.com/vue@3/dist/vue.global.js'></script>
